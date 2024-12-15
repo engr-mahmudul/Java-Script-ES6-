@@ -23,11 +23,3 @@ let res = numbers.reduce((total, currentValue)=> total+ currentValue, 0)
 for (i of numbers){
     console.log(i)
 }
- const obj = {
-    a: 5,
-    b:6,
-    c: 7
- }
- for (i in obj){
-    console.log(obj[i])
- }
