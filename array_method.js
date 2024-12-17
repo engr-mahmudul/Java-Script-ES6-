@@ -23,3 +23,12 @@ let res = numbers.reduce((total, currentValue)=> total+ currentValue, 0)
 for (i of numbers){
     console.log(i)
 }
+// Array of object copy
+const arr = [{ a: 1 }, { b: 1 }];
+
+const newArr = arr.map((singleObject) => {
+  return { ...singleObject };
+});
+newArr.push({c:1})
+console.log(newArr)
+console.log(arr)
